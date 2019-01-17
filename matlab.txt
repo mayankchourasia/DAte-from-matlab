@@ -1,0 +1,44 @@
+Main function 
+
+function [a] = myfunct_day(n)
+if mod(n,7)==0
+    disp("The day on 20th Sept is: ")
+    disp("SUNDAY")
+elseif mod(n,7)==1
+    disp("The day on 20th Sept is: ")
+    disp("MONDAY")
+elseif mod(n,7)==2
+    disp("The day on 20th Sept is: ")
+    disp("TUESDAY")
+elseif mod(n,7)==3
+    disp("The day on 20th Sept is: ")
+    disp("WEDNESDAY")
+elseif mod(n,7)==4
+    disp("The day on 20th Sept is: ")
+    disp("THURSDAY")
+elseif mod(n,7)==5
+    disp("The day on 20th Sept is: ")
+    disp("FRIDAY")
+else 
+    disp("The day on 20th Sept is: ")
+    disp("SATURDAY")
+end
+end
+
+Main file
+
+clc;clear all;close all;
+t=datetime('9/20/2018');
+n=day(t,'dayofyear');
+myfunct_day(n)
+
+
+OUTPUT
+
+The day on 20th Sept is: 
+THURSDAY
+
+ 
+
+
+
