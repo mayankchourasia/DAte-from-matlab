@@ -38,6 +38,7 @@ OUTPUT
 The day on 20th Sept is: 
 THURSDAY
 
+//Note:
  
 
 
