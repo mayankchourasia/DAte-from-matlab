@@ -38,7 +38,7 @@ OUTPUT
 The day on 20th Sept is: 
 THURSDAY
 
-//Note:
+//Note: You have to create to function files First Main then Function File..
  
 
 
